@@ -51,6 +51,7 @@ export default function simonDice(botones, botonesMostrados, focos) {
             }, 700);
         });
     }
+    
     // muestra el patron en el panel de muestra
     const mostrarPatron = (arregloMostr) => {
         desactivarBotones();
