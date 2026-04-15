@@ -9,7 +9,6 @@ export default function simonDice(botones, botonesMostrados, focos) {
         arregloSeleccionado = [],
         arregloMostrado = [];
     const generarAleatorio = () => parseInt(Math.random() * 9);
-    
     const reiniciarJuego = () =>{
         arregloMostrado = [];
         arregloSeleccionado = [];
